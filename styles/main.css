@@ -144,8 +144,7 @@ p {
       left: 20px;
       font-size: 46px;
       line-height: 40px;
-      letter-spacing: -1px;
-      z-index: -1; }
+      letter-spacing: -1px; }
     .header__contact-toggler-label::before {
       display: block; }
     .header__nav-toggler-label::before {
@@ -215,7 +214,9 @@ p {
         .header__nav-toggler:checked ~ .nav .nav__list .nav__item {
           padding: 16px 0; }
         .header__nav-toggler:checked ~ .nav .nav__list .nav__item_active {
-          background-color: transparent; } }
+          background-color: transparent; }
+    .header__contact-toggler:checked ~ .header__title {
+      z-index: -1; } }
 
 .nav {
   color: white;
