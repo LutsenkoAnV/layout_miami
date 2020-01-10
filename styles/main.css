@@ -711,6 +711,9 @@ p {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%); }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   background: #f2f2f2; }
 
